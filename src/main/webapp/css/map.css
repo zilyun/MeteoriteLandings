@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url('//fonts.googleapis.com/css?family=Roboto|Gloria+Hallelujah');
+
+/* $primary-color: #ac39ac;
+$title-color: #f1eee8;
+$background-color: #b5d0d0;
+$colors: #ffffe0 #ffd59b #ffa474 #f47461 #db4551 #b81b34 #8b0000;
+ */
+*, :before, :after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+body {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+/*   background: $background-color; */
+}
+
+svg {
+  display: block;
+}
+
+.title {
+  position: absolute;
+  bottom: 89vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Gloria Hallelujah';
+/*   color: $title-color; */
+}
+
+.chart {
+  border: 2px solid;  /* $primary-color; */
+  position: relative;
+  overflow: hidden;
+}
+
+.meteorite {
+  &--circle {
+    opacity: 0.6;
+  }
+  &--circle-active {
+    opacity: 1;
+  }
+}
+
+.coordinates {
+/*   fill: $primary-color; */
+}
+
+.tooltip {
+  position: absolute;
+  border-radius: 5px;
+  padding: 4px;
+  background: rgba(0,0,0, 0.8);
+  color: white;
+  pointer-events: none;
+  text-align: center;
+  z-index: 2;
+  
+  &--name {
+    font-weight: bold;
+  }
+  &--prop {
+    color: silver;
+  }
+}
+
+@for $i from 1 through 7 {
+/*   .color-#{$i} {
+    color: nth($colors, $i);
+  } */
+}
