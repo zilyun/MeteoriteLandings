@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 // FCC: Map Data Across the Globe
 // User Story: I can see where all meteorites landed on a world map.
 // User Story: I can tell the relative size of the meteorite, just by looking at the way it's represented on the map.
@@ -219,3 +221,4 @@ var Chart = (function(window, d3) {
 
 
 window.addEventListener('resize', Chart.render);
+});

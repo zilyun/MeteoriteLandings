@@ -8,9 +8,9 @@
 <style>
 </style>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/d3.geo.tile@0.0.0/index.min.js"></script>
-<script src="${pageContext.request.contextPath}/css/map.css?v=1.2"></script>
-<script src="${pageContext.request.contextPath}/js/map.js?v=1.2"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="${pageContext.request.contextPath}/css/map.css?v=1.3"></script>
+<script src="${pageContext.request.contextPath}/js/map.js?v=1.3"></script>
 </head>
 <body>
 <div class="chart"></div>
